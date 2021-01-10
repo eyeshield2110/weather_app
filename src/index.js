@@ -9,7 +9,7 @@ const heroku_port = process.env.PORT;
 /* --------------------------------- Express app configuration --------------------------------- */
 const app = express();
 app.set('view engine', 'hbs'); // set hbs as template extension (.hbs)
-app.set('views', '../views'); // access to views (templates)
+app.set('views', './views'); // access to views (templates)
 app.use(express.static(path.join(__dirname, '../public'))); // access to public directory for static assets
 hbs.registerPartials(path.join(__dirname, '../views/partials'));
 
