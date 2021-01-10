@@ -1,0 +1,11 @@
+footer {
+    border-top: 1px solid #eeeeee;
+    margin-top: 16px;
+    padding: 16px;
+    color:#888888;
+}
+
+div.show-weather {
+    margin-top: 10px;
+    padding: 10px;
+}
